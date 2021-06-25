@@ -21,7 +21,7 @@ Istio filters I've implemented this filter in all three languages.
 To compile via the _Makefile_,
 
 ``` bash
-docker run -v $PWD:/work -w /work wasmsdk:v2 /build_wasm.sh
+docker run -v ${PWD}:/work -w /work wasmsdk:v2 /build_wasm.sh
 ```
 
 At this point, you have _regex-repl.wasm_ which contains the compiled version.  To deploy:
